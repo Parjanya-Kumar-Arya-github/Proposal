@@ -2,17 +2,17 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Love You Baby</title>
+  <title>Love You</title>
   <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
-    <audio style="display: none;z-index: 100;" controls autoplay loop>
+    <audio style="display: none;z-index: 100;" id="song" loop>
         <source src="hbd.mp3"></source>
 	   Your browser isn't invited for super fun audio time.
     </audio>
     <div class="speech">
-        <p>A happy relationship isn't always easy,<br>
+        <p><br>
             It takes a long time to get this far,<br>
             to understand eachother and <br>
             to know how much you mean to your love.</p>
@@ -38,8 +38,8 @@
 
         <p class="last">
             I am not very good in these things, <br>
-            specially not with the ambiance, <br>
-            but still a special place is there for you <br>
+            specially not with holding my arrogance, <br>
+            but still I will make you feel too special for sure. <br>
             Lets goooo... <br>
             <a class="bubbly-button" href="propose.html">Click me!</a>
         </p>
@@ -378,6 +378,10 @@
 <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/ScrollTrigger.min.js'></script><script  src="./script.js"></script>
-
+<script>
+    setTimeout(() => {
+  document.getElementById('song').play();
+}, 500)
+</script>
 </body>
 </html>

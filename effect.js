@@ -9,7 +9,7 @@ $('document').ready(function() {
 
             const config = {
                 birthdate: 'June 27, 2021',
-                name: 'Muahh Baby! Love you! ek kissy toh bnti hai'
+                name: 'Thanks for accepting me.'
             };
 
             function hideEverything() {
@@ -40,7 +40,7 @@ $('document').ready(function() {
                     hw = w / 2 + 25, // half-width
                     hh = h / 2,
                     opts = {
-                        strings: ['Yayyyyyyyyy!!!!!!! Tummmm mAnnnn GYiiii!!!!!', ' AAAAAAj see Hum gf/bf', config.name],
+                        strings: ['Yayyyyyyyyy!!!!!!! Tummmm mAnnnn GYiiii!!!!!', ' Woohoooo', config.name],
                         charSize: 30,
                         charSpacing: 30,
                         lineHeight: 40,
